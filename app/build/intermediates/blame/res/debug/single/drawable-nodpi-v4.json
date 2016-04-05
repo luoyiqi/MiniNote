@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AP\\Note-Example\\NoteWidgets-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\example_appwidget_preview.png",
+        "source": "E:\\AP\\Note-Example\\NoteWidgets-master\\app\\src\\main\\res\\drawable-nodpi\\example_appwidget_preview.png"
+    },
+    {
+        "merged": "E:\\AP\\Note-Example\\NoteWidgets-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\comic.jpg",
+        "source": "E:\\AP\\Note-Example\\NoteWidgets-master\\app\\src\\main\\res\\drawable-nodpi\\comic.jpg"
+    },
+    {
+        "merged": "E:\\AP\\Note-Example\\NoteWidgets-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\note_widget_preview.png",
+        "source": "E:\\AP\\Note-Example\\NoteWidgets-master\\app\\src\\main\\res\\drawable-nodpi\\note_widget_preview.png"
+    }
+]

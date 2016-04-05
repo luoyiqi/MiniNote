@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NoteActivity">
+
+    <item
+        android:id="@+id/background_color_settings"
+        android:orderInCategory="100"
+        android:title="背景颜色"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/font_color_settings"
+        android:orderInCategory="100"
+        android:title="字体颜色"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/font_size_settings"
+        android:orderInCategory="100"
+        android:title="字体大小"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/save_to_SDCard"
+        android:orderInCategory="100"
+        android:title="保存到SDCard"
+        app:showAsAction="never" />
+
+</menu>

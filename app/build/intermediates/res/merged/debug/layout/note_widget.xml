@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/note_widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <!--必须使用幀布局，自上而下，ImageView为背景-->
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center" />
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/widget_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/title_description"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/title_filler"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="" />
+
+        <TextView
+            android:id="@+id/widget_body_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/widget_title_text"
+            android:contentDescription="@string/body_description"
+            android:gravity="center"
+            android:padding="@dimen/widget_margin"
+            android:text="@string/body_filler"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
