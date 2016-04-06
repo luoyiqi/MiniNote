@@ -1,5 +1,4 @@
-﻿title: 迷你便签（MiniNote）
-tags：[安卓，便签，android,note]
+﻿迷你便签（MiniNote）
 ---
 ##简介
 一款Material风格的安卓桌面便签，基于https://github.com/crwgregory/NoteWidgets 进行个人修改
@@ -13,8 +12,8 @@ Future characteristics
 1. 自定义字体
 2. 数字高亮
 3. 输入框可进行智能数字运算:
-   > 输入：今天花了34+87=元
-   > 结果：今天花了121元
+> 输入：今天花了34+87=元
+> 结果：今天花了121元
 More...
     
    
