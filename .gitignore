@@ -33,8 +33,5 @@ proguard/
 captures/
 
 #
-.gradle
-/local.properties
 /.idea/
-/build
 *.iml
