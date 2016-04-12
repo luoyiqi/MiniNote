@@ -1,0 +1,43 @@
+新建第一个widget，弹出配置活动
+03-27 05:43:10.320 3841-3841/? D/com.notewidgets.appforest.notewidgets.widgets.NoteWidget: onEnabled()
+03-27 05:43:10.320 3841-3841/? D/com.notewidgets.appforest.notewidgets.helpers.SQLiteHelper: create()
+03-27 05:43:10.324 3841-3841/? D/com.notewidgets.appforest.notewidgets.widgets.NoteWidget: onUpdate() widgetId: 19
+03-27 05:43:10.324 3841-3841/? D/com.notewidgets.appforest.notewidgets.widgets.NoteWidget: onEnabled()
+03-27 05:43:10.324 3841-3841/? D/com.notewidgets.appforest.notewidgets.helpers.SQLiteHelper: create()
+03-27 05:43:10.324 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: Tried to find a note that wasn't there.
+03-27 05:43:10.357 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: onCreate()
+03-27 05:43:10.411 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: Valid AppWidgetID: 19
+03-27 05:43:10.411 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: Tried to find a note that wasn't there.
+填写widget内容，保存
+03-27 05:43:56.412 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: saveNote()
+03-27 05:43:56.412 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: appWidgetId: 19
+03-27 05:43:56.412 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: fff
+03-27 05:43:56.414 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: Tried to find a note that wasn't there.
+03-27 05:43:56.414 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: Creating new row
+03-27 05:43:56.414 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: Date created: 1459071836414
+03-27 05:43:56.414 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: Widget ID: 19
+03-27 05:43:56.414 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: UPDATE notes SET note_title = 'ee', note_body = 'fff' WHERE app_widget_id = 19;
+03-27 05:43:56.420 3841-3841/? D/WidgetHelper: updateWidget()
+03-27 05:43:56.422 3841-3841/? D/WidgetHelper: setPendingIntent()
+03-27 05:43:56.424 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: returnResult()
+03-27 05:43:56.427 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: onPause()
+03-27 05:43:56.777 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: onStop()
+03-27 05:43:56.777 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: onDestroy()
+再次点击这一个widget，
+03-27 05:47:56.240 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: onCreate()
+03-27 05:47:56.249 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: Valid AppWidgetID: 19
+改变widget内容，保存
+03-27 05:50:31.542 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: saveNote()
+03-27 05:50:31.542 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: appWidgetId: 19
+03-27 05:50:31.542 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: ffft
+03-27 05:50:31.543 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: updating row
+03-27 05:50:31.543 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: Date created: 1459071836414
+03-27 05:50:31.543 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: Widget ID: 19
+03-27 05:50:31.543 3841-3841/? D/com.notewidgets.appforest.notewidgets.model.Note: UPDATE notes SET note_title = 'eey', note_body = 'ffft' WHERE app_widget_id = 19;
+03-27 05:50:31.553 3841-3841/? D/WidgetHelper: updateWidget()
+03-27 05:50:31.553 3841-3841/? D/WidgetHelper: setPendingIntent()
+03-27 05:50:31.555 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: returnResult()
+03-27 05:50:31.595 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: onPause()
+03-27 05:50:36.694 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: onStop()
+03-27 05:50:36.694 3841-3841/? D/com.notewidgets.appforest.notewidgets.activities.NoteActivity: onDestroy()
+
