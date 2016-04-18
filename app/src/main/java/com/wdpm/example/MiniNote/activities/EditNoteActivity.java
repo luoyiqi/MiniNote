@@ -57,7 +57,7 @@ public class EditNoteActivity extends AppCompatActivity implements ColorChooserD
 
     private File backupPath;
     private MaterialDialog backUpDialog;
-    public static String BACKUP_FILE_NAME = "notes_backup_NUMBER.txt"; // Backup file name
+    public static String BACKUP_FILE_NAME = "note_NUMBER.txt"; // Backup file name
 
     public EditNoteActivity() {
         this.CLASS_NAME = getClass().getName();
@@ -354,12 +354,12 @@ public class EditNoteActivity extends AppCompatActivity implements ColorChooserD
             accentPreselect = selectedColor;
             EditText main_edit_text = (EditText) findViewById(R.id.main_edit_text);
             EditText main_edit_title_text = (EditText) findViewById(R.id.main_edit_title_text);
-            main_edit_text.setTextColor(accentPreselect);
-            main_edit_title_text.setTextColor(accentPreselect);
+//            main_edit_text.setTextColor(accentPreselect);
+//            main_edit_title_text.setTextColor(accentPreselect);
         } else {
             //主色调为背景颜色
             primaryPreselect = selectedColor;
-            linearLayout.setBackgroundColor(primaryPreselect);
+//            linearLayout.setBackgroundColor(primaryPreselect);
         }
     }
 }

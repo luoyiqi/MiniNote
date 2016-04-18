@@ -6,6 +6,6 @@ package com.wdpm.example.MiniNote.utils;
  */
 public class Constant {
 
-    public static final String BACKUP_FOLDER_PATH = "/notes"; // Backup folder path
+    public static final String BACKUP_FOLDER_PATH = "/MiniNote_backup"; // Backup folder path
 
 }
