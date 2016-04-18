@@ -4,11 +4,13 @@
 一款Material风格的安卓桌面便签，基于https://github.com/crwgregory/NoteWidgets 进行个人修改
 
 ## 预览
-![1](/screenshot/home.jpg)
-![2](/screenshot/choose_font_color.jpg)
-![3](/screenshot/choose_font_size.jpg)
-![4](/screenshot/backup_to_sdcard.jpg)
-![5](/screenshot/preview.jpg)
+<div>
+ <img src="/screenshot/home.jpg" width="20%" height="" />
+ <img src="/screenshot/choose_font_color.jpg" width="20%" height="" />
+ <img src="/screenshot/choose_font_size.jpg" width="20%" height="" />
+ <img src="/screenshot/backup_to_sdcard.jpg" width="20%" height="" />
+ <img src="/screenshot/preview.jpg" width="20%" height="" />
+</div>
 
 ## Ver1.0.0 &nbsp;&nbsp;&nbsp;2016.4.5
 1. 可改变字体大小、颜色
